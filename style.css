@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    width: 100%;
+    height: 30px;
+    /* padding: 10px 20px; */
+    /* border-bottom: 1px solid black; */
+    /* text-decoration-line: none; */
+}
+header nav{
+    display: flex;
+    background-color: rgb(1, 148, 99);
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    
+}
+ header nav .logo{
+    color:green;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    background-color: #fff;
+    /* width: 30px; */
+    /* height: 60px; */
+    background-size: contain;
+    align-self: center;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding: 16.5px;
+
+}
+header nav .logo a{
+    text-decoration-line: none;
+    color: green;
+    font-weight: 700;
+    font-weight: bold;
+}
+
+
+ header nav ul{
+    display: flex;
+    width: 25%;
+    justify-content : space-between;
+    align-items: center;
+
+}
+header nav ul li{
+    list-style: none;
+   
+}
+header nav ul a{
+    color: white;
+    /* color: black; */
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+header nav ul a:hover{
+    color: orange;
+    
+} */
+
+main{
+    
+    width: 100%;
+
+}
+main .text-wrapper{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    /* position: absolute; */
+    color: white;
+    display: flex; 
+    display: block;
+    text-align: center;
+
+}
+main .text-wrapper h1{
+    padding-top: 200px;
+    font: 5em sans-serif;
+    
+} 
+main .text-wrapper p{
+    padding-top: 10px;
+    color:rgb(1, 148, 99);;
+    font-size: 25px;
+
+}
+
+main .background{
+    background-color: rgb(36, 33, 58);
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 70px ;
+    margin: 0;
+    justify-content: space-between;
+
+}
+main .background .second-background{
+    padding-top: 60px;
+    height: 500px;
+    
+
+}
+main .background .second-background h1{
+    margin-top: 40px;
+    font: 4em sans-serif;
+}
+main .background .second-background p{
+    padding: 5px;
+}
+
+
+
+
+
+main .background .second-background section span{
+    justify-content: space-between;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 70px;
+    
+
+}
+main .background .facebook img{
+    width: 16px;
+    height: 16px;
+    /* padding: 5px; */
+
+}
+main .background .github img{
+    width: 16px;
+    height: 16px;
+    /* padding: 1px; */
+
+}
+main .background .twitter img{
+    width: 16px;
+    height: 16px;
+    /* padding: 1px; */
+
+
+}
+main .background section span a{
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: #fff;
+}
+main .background .second-background aside{
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    
+}
+
+
+main .background .second-background aside span{
+    justify-content: space-around;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    
+
+     
+}
+main .background .second-background aside .reach img{
+    width: 16px;
+    height: 16px;
+    /* padding-top: 30px; 
+} */
+}
+main .background  .second-background aside .reach a{
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration: none;
+    color: #fff;
+}
+main .background  .second-background aside .reach{
+    padding-bottom: 50px;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+
+
+hr{
+    color:  rgb(1, 148, 99);
+    border: 1px solid rgb(1, 148, 99) !important;
+}
+
+main .background footer{
+    justify-content: space-evenly;
+    color: #fff;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    background-color: rgb(36, 33, 58);
+    
+}
+main .background footer span{
+    justify-content: space-evenly;
+    padding: 25px;
+
+
+}
+
+
+
+
+
+
+
+
